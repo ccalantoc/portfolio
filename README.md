@@ -1,8 +1,10 @@
+<!DOCTYPE html>
 <html>
-<body background="File_000%20(2).jpeg">
 <head>
-<title>Journey Through Coding</title>
+<title>Page Title</title>
 </head>
+<body>
+<body background="File_000%20(2).jpeg">
 <body>
 
 <img src="File_000.jpeg" style="width:150px;height:200px;">
