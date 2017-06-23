@@ -14,9 +14,7 @@
 
 <p>My name is Candice Calantoc. I used to live in Stockton, CA. I am a student at James Lick High School. I love cats and potatoes. I dislike fish. I am in girls who code program. Fun Fact about me is that crafting is my hobby</p>
 
-</html>
-
-</body>
-
 <img src="Scratch.png">
 <a href="https://scratch.mit.edu/users/ccalantoc/">Visit My Scratch Page</a>
+</html>
+</body>
