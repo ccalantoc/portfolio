@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <body background="File_000%20(2).jpeg">
 <head>
@@ -11,5 +12,6 @@
 
 <p>My name is Candice Calantoc. I used to live in Stockton, CA. I am a student at James Lick High School. I love cats and potatoes. I dislike fish. I am in girls who code program. Fun Fact about me is that crafting is my hobby</p>
 
-
+</html>
+</body>
 
