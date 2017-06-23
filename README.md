@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-
 <html>
 <head>
 <title> Journey Through Coding</title>
 </head>
+
 <body>
 <body background="File_000%20(2).jpeg">
-<body>
 
 <img src="File_000.jpeg" style="width:150px;height:200px;">
 
