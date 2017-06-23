@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
+<title> Journey Through Coding</title>
 </head>
 <body>
 <body background="File_000%20(2).jpeg">
@@ -17,3 +17,4 @@
 </body>
 
 <img src="Scratch.png">
+<a href="https://scratch.mit.edu/users/ccalantoc/">Visit My Scratch Page</a>
