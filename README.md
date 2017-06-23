@@ -9,6 +9,6 @@
 
 <p>My name is Candice Calantoc. I used to live in Stockton, CA. I am a student at James Lick High School. I love cats and potatoes. I dislike fish. I am in girls who code program.</p>
 
-<img src="File_000.jpeg style="width:40px;height:40px;">
+<img src="File_000.jpeg" alt="HTML5 Icon" style="width:128px;height:128px;">
 
 <a href="<a href="https://github.com/ccalantoc/portfolio/blob/master/File_000.jpeg">HTML Images</a>
