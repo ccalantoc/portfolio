@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<body background="">
+<body background="File_000%20(2).jpeg">
 <head>
 <title>Journey Through Coding</title>
 </head>
