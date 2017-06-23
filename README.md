@@ -14,5 +14,4 @@
 
 <img src="Scratch.png">
 <a href="https://scratch.mit.edu/users/ccalantoc/">Visit My Scratch Page</a>
-</html>
 </body>
