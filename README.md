@@ -1,4 +1,3 @@
-<Journey Through Coding>
 <html>
 <body background="File_000%20(2).jpeg">
 <head>
