@@ -6,7 +6,7 @@
 </head>
 <body>
 
-<img src="File_000.jpeg" style="width:80px;height:50px;">
+<img src="File_000.jpeg" style="width:150px;height:200px;">
 
 <h1>About Me</h1>
 
