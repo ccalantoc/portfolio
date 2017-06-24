@@ -1,4 +1,4 @@
-# portfolio
+# Journey through Coding
 <!DOCTYPE html>
 <html>
 <head>
