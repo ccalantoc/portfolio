@@ -1,5 +1,5 @@
-# Journey through Coding
 <!DOCTYPE html>
+# Journey through Coding
 <html>
 <head>
 <title>Journey through Coding</title>
