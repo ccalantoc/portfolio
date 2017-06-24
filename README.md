@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-# Journey through Coding
 <html>
 <head>
 <title>Journey through Coding</title>
 </head>
 <body>
+
 <img scr="File000.jpeg">
 
 <h1>About Me</h1>
