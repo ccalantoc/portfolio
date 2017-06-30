@@ -30,17 +30,24 @@ div {
 <h1>About Me</h1> 
 <p>Hi! My name is Candice Anne Calantoc. I am 17 years old. I go to James Lick High School and I will be graduating in 2018.
  I Like Potatoes. A fun fact about me is that I like to craft things such as stuffed animals.</p>
- <img src="instagram.png" style ="width:50px;height:50px;>
-                                  
- <img src="snapchat.png" style ="width:50px;height:50px;>
- 
- <img src="twitter.png" style ="width:50px;height:50px;>
+ <img src="" >
+ <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="instagram.png" alt="instagram" width="32" height="32"> 
+ <img src="twitter.png" style = "width:50px;height:50px;>
  </div>
  &nbsp;
  &nbsp;
  &nbsp;                              
 <script>
 window.alert("Welcome to my page!");
+function bigImg(x) {
+    x.style.height = "64px";
+    x.style.width = "64px";
+}
+
+function normalImg(x) {
+    x.style.height = "32px";
+    x.style.width = "32px";
+}
 </script>
 </body>
 </html>
