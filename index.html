@@ -29,6 +29,29 @@ div {
 <p>Hi! My name is Candice Anne Calantoc. I am 17 years old. I go to James Lick High School and I will be graduating in 2018.I Like Potatoes. A fun fact about me is that I like to craft things such as stuffed animals.</p>
 <img onmouseenter="biginstagram(this)" onmouseleave="normalinstagram(this)" src="instagram.png">
 </div>
+
+ <div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="Scratch.png" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="image.png" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
 <script>
  window.alert("Welcome to my page!") 
  function biginstagram(x) {
@@ -39,7 +62,27 @@ div {
   x.style.height = "50px";
   x.style.width = "50px";
  }
- </script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
  </body>
  </html>
 
