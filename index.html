@@ -22,33 +22,26 @@
           padding: 25px;
          float: right;
     }
-    div.post {
-      background-color: red;
-      width: 1000px;
-      height: 500px;
-      padding: 25px;
-    }
     div.media {
-      background-color: white;
+      background-color: red;
       width: 300px;
-      height: 500px;
-      float: right;
+      height: 300px;
+      position: relative;
+      clear: left;
     }
+      
   </style>
-  
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 * {box-sizing:border-box}
 body {font-family: 'Limelight';}
 .mySlides {display:none}
-
 /* Slideshow container */
 .slideshow-container {
   max-width: 100%;
   position: relative;
   margin: auto;
 }
-
 /* Caption text */
 .text {
   color: #f2f2f2;
@@ -59,7 +52,6 @@ body {font-family: 'Limelight';}
   width: 100%;
   text-align: center;
 }
-
 /* Number text (1/3 etc) */
 .numbertext {
   color: #f2f2f2;
@@ -68,7 +60,6 @@ body {font-family: 'Limelight';}
   position: absolute;
   top: 0;
 }
-
 /* The dots/bullets/indicators */
 .dot {
   height: 13px;
@@ -79,11 +70,9 @@ body {font-family: 'Limelight';}
   display: inline-block;
   transition: background-color 0.6s ease;
 }
-
 .active {
   background-color: #717171;
 }
-
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
@@ -91,17 +80,14 @@ body {font-family: 'Limelight';}
   animation-name: fade;
   animation-duration: 1.5s;
 }
-
 @-webkit-keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
 }
-
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
 }
-
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
@@ -149,12 +135,9 @@ body {font-family: 'Limelight';}
     
   </div>
   
-  <div class="post">
+  <div class="media">
     <img onmouseenter="biginstagram(this)" onmouseleave="normalinstagram(this)" src="instagram.png" alt="instagram" width= 50 height= 50>
   </div>
-  
-  <div class="media>
-              </div>
   </body>
   
 <script>
@@ -169,7 +152,6 @@ body {font-family: 'Limelight';}
    }
 var slideIndex = 0;
 showSlides();
-
 function showSlides() {
     var i;
     var slides = document.getElementsByClassName("mySlides");
