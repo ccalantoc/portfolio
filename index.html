@@ -22,7 +22,7 @@
     div.box {
       background-color: white;
          width: 300px;
-         height: 800px;
+         height: 600px;
           padding: 25px;
       border: 1px solid black;
          float: right;
@@ -157,13 +157,10 @@ body {font-family: 'Limelight';}
 <div class="box">
   <img src="File_000.jpeg" style ="width:250px;height:200px;">
   <h2>About me</h2>
-  <p>Hi! My name is Candice Calantoc. I am 17 years old. I go to James Lick High School. I hope to major in computer science in the future.</p>
-   <a href="#" class="read_more">Read More</a><br/>
- <span class="more_text">
-         Like: Animals
+  <p>Hi! My name is Candice Calantoc. I am 17 years old. I go to James Lick High School. I hope to major in computer science in the future.
+    Like: Animals
     Dislike: Fish Soup
-    Fun Fact: I love to craft
-    </span> 
+    Fun Fact: I love to craft.</p>
     <p class="solid">Social Media</p>
   <img onmouseenter="biginstagram(this)" onmouseleave="normalinstagram(this)" src="instagram.png" alt="instagram" width= 60 height= 60>
   <img onmouseenter="bigtwitter(this)" onmouseleave="normaltwitter(this)" src="twitter.png" alt="instagram" width= 50 height= 50>
@@ -210,14 +207,6 @@ function showSlides() {
     dots[slideIndex-1].className += " active";
     setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
-  (function(){ /* to make sure the script runs after page load */
-
-    $('a.read_more').click(function(event){ /* find all a.read_more elements and bind the following code to them */
-
-        event.preventDefault(); /* prevent the a from changing the url */
-        $(this).parents('.item').find('.more_text').show(); /* show the .more_text span */
-
-    }
 </script>
   
 </html>
