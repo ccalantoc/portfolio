@@ -1,5 +1,4 @@
 <link href='https://fonts.googleapis.com/css?family=Limelight' rel='stylesheet'>
-  <style>
     body {
       background-image: url("green.jpg");
       background-positon: center top;
@@ -116,4 +115,4 @@ body {font-family: 'Limelight';}
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
-</style>
+
